@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="16dp"
+            android:text="用户名">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="请输入用户名"
+            android:id="@+id/usrName"
+            >
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="16dp"
+            android:text="密码">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="请输入密码"
+            android:id="@+id/usrPwd1"
+            android:inputType="textPassword"
+            >
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="16dp"
+            android:text="确认密码">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="请再次输入密码"
+            android:id="@+id/usrPwd2"
+            android:inputType="textPassword"
+            >
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="16dp"
+            android:text="邮箱地址">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="请输入邮箱"
+            android:id="@+id/usrEmail"
+            >
+        </EditText>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="提交"
+            android:id="@+id/btnPose">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
